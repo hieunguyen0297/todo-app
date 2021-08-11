@@ -3,17 +3,8 @@ import Form from "./components/Form";
 import TodoList from './components/TodoList'
 
 function App() {
-  const [count, setCount ] = useState(0)
-  const [value, setValue] = useState('')
 
-  const [ todos, setTodos ] = useState([])
-
-  const increment = () => {
-    setCount(count + 1)
-  }
-
- 
- 
+  const [ todos, setTodos ] = useState([]);
 
   return (
     <div className="container">
